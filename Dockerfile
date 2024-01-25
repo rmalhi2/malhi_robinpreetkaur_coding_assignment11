@@ -4,7 +4,7 @@ FROM node:21.6.0-alpine
 # set working directory
 WORKDIR /malhi_robinpreetkaur_site
 
-# add `/app/node_modules/.bin` to $PATH
+# add `/malhi_robinpreetkaur_site/node_modules/.bin` to $PATH
 ENV PATH /malhi_robinpreetkaur_site/node_modules/.bin:$PATH
 
 # install app dependencies
