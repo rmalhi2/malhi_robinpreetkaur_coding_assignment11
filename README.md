@@ -49,7 +49,7 @@ COPY package-lock.json ./
 --this copies the files "package.json" and "package-lock.json" from the localhost to the working directory of the docker container.
 
 RUN npm install
---this installs all the dependencies that are present in package.json.
+--this installs all the dependencies that are present in package.json
 
 RUN npm install react-scripts@3.4.1 -g
 --this installs the react-script package with version 3.4.1
